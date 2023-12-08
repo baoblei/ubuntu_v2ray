@@ -64,3 +64,24 @@ v2ray ubuntu配置
   ![](https://cdn.jsdelivr.net/gh/baoblei/imgs_md/20231208175347.png)
 
 - 订阅地址：添加自己的URL即可
+
+## 设置终端代理
+
+- 打开系统设置，将系统代理设置为手动
+
+  ![](https://cdn.jsdelivr.net/gh/baoblei/imgs_md/20231208184214.png)
+
+- 打开qv2ray，代理方式设置为系统代理
+
+- 编辑～/.bashrc
+
+  ```bash
+  # 端口号和手动代理中设置的一样
+  export https_proxy=http://127.0.0.1:8889 
+  export http_proxy=http://127.0.0.1:8889 
+  export all_proxy=socks5://127.0.0.1:1089
+  
+  source ~/.bashrc
+  ```
+
+  
