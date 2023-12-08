@@ -80,8 +80,13 @@ v2ray ubuntu配置
   export https_proxy=http://127.0.0.1:8889 
   export http_proxy=http://127.0.0.1:8889 
   export all_proxy=socks5://127.0.0.1:1089
-  
+  ```
+
+  ```bash
+  # 在终端更新一下
   source ~/.bashrc
   ```
 
   
+
+​	
